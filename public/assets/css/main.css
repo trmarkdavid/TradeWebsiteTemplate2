@@ -1,0 +1,445 @@
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid #c4c4c4;
+}
+
+nav .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #727272;
+    padding: .2rem 3rem !important;
+}
+
+.boxshadow {
+    box-shadow: 0px 0px 9px 2px rgba(28, 28, 28, 0.26);
+}
+
+/*===== Booking Section =====*/
+#section-booking {
+    background-image: url("../images/background1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    color: #FFF;
+}
+
+#section-booking .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 12rem;
+}
+
+#section-booking .center-content h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+#section-booking .center-content h3 {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+#section-booking .center-content .btn-success {
+    font-size: 2rem;
+    background-color: #3cc03c;
+    border-color: #3cc03c;
+    padding: 1rem 2.5rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    #section-booking .center-content .btn-success {
+        font-size: 1.5rem;
+    }
+}
+
+/*===== Introduction Section =====*/
+#section-introduction {
+    background-image: url("../images/background2.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#section-introduction .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    margin: 9rem auto;
+    padding: 4rem 5rem;
+}
+
+@media (max-width: 767px) {
+    #section-introduction .center-content {
+        margin: 9rem 2rem;
+        padding: 4rem 2rem;
+    }
+}
+
+#section-introduction .center-content h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    color: #3362b1;
+}
+
+#section-introduction .center-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #2f3b4c;
+}
+
+/*===== Services Section =====*/
+#section-services .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 7rem 7rem 10rem 7rem;
+    background-color: #5c6d8c;
+}
+
+#section-services .center-content .service {
+    border: 3px solid #FFF;
+    padding: 1rem;
+    width: 140px;
+    height: 140px;
+    margin: 5rem auto 2rem auto;
+    border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+    #section-services .center-content .service {
+        margin: 5rem 5rem 2rem 5rem;
+    }
+}
+
+#section-services .center-content .service.abn {
+    background: url("/assets/images/ABN.png") no-repeat center center;
+}
+
+#section-services .center-content .service.licensed {
+    background: url("/assets/images/LicensedandInsured.png") no-repeat center center;
+}
+
+#section-services .center-content .service.fix4 {
+    background: url("/assets/images/Fix4meVerified.png") no-repeat center center;
+}
+
+#section-services .center-content .service.emergency {
+    background: url("/assets/images/EmergencyWork.png") no-repeat center 40%;
+}
+
+#section-services .center-content p {
+    color: #FFF;
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+/*===== Fix4Me Section =====*/
+#fix4me .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 7rem;
+    background-color: #f0614f;
+}
+
+#fix4me .center-content h2 {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+#fix4me .center-content button {
+    color: #f0614f;
+    background-color: #FFF;
+    border-color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 4px;
+}
+
+/*===== Our Job Photos Section =====*/
+#jobphotos .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 9rem;
+}
+
+@media (max-width: 767px) {
+    #jobphotos .center-content {
+        padding: 5rem 0;
+    }
+}
+
+#jobphotos .center-content h2 {
+    color: #3362b1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+#jobphotos .center-content .row {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    #jobphotos .center-content .row {
+        width: 100%;
+    }
+}
+
+#jobphotos .center-content .row .center-img {
+    overflow: hidden;
+}
+
+#jobphotos .center-content .row .center-img img {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#jobphotos .center-content .btn-success {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    background-color: #3cc03c;
+    border-color: #3cc03c;
+    padding: 0.75rem 2.5rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+}
+
+/*===== Trade Services Section =====*/
+#tradeservices .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 7rem 7rem 10rem 7rem;
+    background-color: #5c6d8c;
+}
+
+#tradeservices .center-content h2 {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+#tradeservices .center-content .trade-item {
+    background-color: #ebebeb;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 17px;
+}
+
+#tradeservices .center-content .trade-item.checked {
+    position: relative;
+    padding-right: 3rem;
+}
+
+#tradeservices .center-content .trade-item.checked::after {
+    content: "\f00c";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0.25rem;
+    background: #c1c3c7;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    right: 7px;
+    top: 10px;
+}
+
+#tradeservices .center-content .trade-item img {
+    margin-left: 0.75rem;
+}
+
+#tradeservices .center-content .btn-success {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    background-color: #3cc03c;
+    border-color: #3cc03c;
+    padding: 0.75rem 2.5rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+}
+
+/*===== Our Recent Reviews Section =====*/
+#recentreviews .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 9rem;
+}
+
+@media (max-width: 767px) {
+    #recentreviews .center-content {
+        padding: 5rem 0;
+    }
+}
+
+#recentreviews .center-content h2 {
+    color: #3362b1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+#recentreviews .center-content .rc-item {
+    margin: 2rem;
+    padding: 3rem;
+}
+
+#recentreviews .center-content .rc-item .rc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#recentreviews .center-content .rc-item .rc-top p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: #545c67;
+}
+
+#recentreviews .center-content .rc-item .rc-body {
+    text-align: left;
+}
+
+#recentreviews .center-content .rc-item .rc-body .title {
+    font-size: 1.5rem;
+    color: #02afce;
+    margin-bottom: 0.25rem;
+}
+
+#recentreviews .center-content .rc-item .rc-body .description {
+    font-size: 1.5rem;
+    color: #545c67;
+}
+
+#recentreviews .center-content .btn-success {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    background-color: #3cc03c;
+    border-color: #3cc03c;
+    padding: 0.75rem 2.5rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+}
+
+/*===== Contact Us Section =====*/
+#section-contactus {
+    background-image: url("../images/background2.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#section-contactus .cu-container {
+    text-align: center;
+    background-color: #FFF;
+    margin: 9rem auto;
+    padding: 4rem 7rem;
+}
+
+#section-contactus .cu-container.contact {
+    margin: 9rem auto 0 auto;
+}
+
+#section-contactus .cu-container.contact p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    #section-contactus .cu-container {
+        margin: 4rem auto;
+        padding: 4rem 2rem;
+    }
+}
+
+#section-contactus .cu-container h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #3362b1;
+}
+
+#section-contactus .cu-container strong {
+    font-size: 1.25rem;
+    color: #545c67;
+}
+
+#section-contactus .cu-container p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #2f3b4c;
+}
+
+#section-contactus .cu-container .btn-success {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    background-color: #3cc03c;
+    border-color: #3cc03c;
+    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+}
+
+#section-contactus .cu-container .btn-success .fas {
+    font-size: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}

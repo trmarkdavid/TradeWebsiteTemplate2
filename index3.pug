@@ -9,46 +9,20 @@ block content
       button.btn.btn-success(type='button') MAKE A BOOKING / REQUEST A QUOTE
 
 
-  section#section-introduction
-    .center-content.boxshadow
-      h2 Introduction
-      p Looking for a trustworthy, experienced and licensed Handyman on the Central Coast?
-      p Then look no further!
-      p Hi, I’m Ben from Sunny Coast Handyman Services, and I have been proudly servicing the
-        br
-        | Central Coast for just over 7 years. I am fully licensed and insured so you can feel confident
-        br
-        | when booking me for your next job.
-      p I am a family man who loves getting out for wave whenever I can, and spending time with
-        br
-        | my wife and 2 young kids.
-      p Call me a call to discuss your next job – I'd love to speak to you!
-
-
-  section#section-services
-    .center-content.container-fluid
-      .row
-        .col
-          .service.abn
-          p ABN Checked
-        .col
-          .service.licensed
-          p Licensed and Insured
-        .col
-          .service.fix4
-          p Fix4me Verified
-        .col
-          .service.emergency
-          p Emergency Work
-      
-
-  section#fix4me
-    .center-content.container-fluid
-      .row
-        .col
-          img.mx-auto(src='assets/images/fix4me.png', alt='Fix4me', title='Fix4me')
+  section#fix4meverified
+    .center-content.container.boxshadow
+      .row.align-items-center.w-100
+        .col-sm-12.col-lg-3
+          img.mx-auto(src='assets/images/fix4me2orange.png', alt='Fix4me', title='Fix4me')
+        .col-sm-12.col-lg-6
           h2 Fix4me Verified Trade Supplier
           button.btn.btn-success(type='button') View my profile
+        .col-sm-12.col-lg-3
+          p 127 completed jobs 
+            br
+            | 96% completion rate 
+            br
+            | Average Rating 4.8 Stars
 
 
   section#jobphotos
@@ -67,7 +41,7 @@ block content
             img(src='assets/images/jobphoto5.png', alt='Job Photo', title='Job Photo')
           .col-md-4.col-sm-12.center-img
             img(src='assets/images/jobphoto6.png', alt='Job Photo', title='Job Photo')
-        button.btn.btn-success(type='button') VIEW FULL GALLERY
+          button.btn.btn-success(type='button') VIEW FULL GALLERY
 
 
   section#tradeservices
@@ -94,7 +68,9 @@ block content
             .trade-item Cabinets
             .trade-item.checked Cabling - Phone/Data/TV
 
-        button.btn.btn-success(type='button') VIEW FULL SERVICES
+        button.btn.btn-success(type='button')
+          i.fas.fa-angle-right
+          | VIEW ALL SERVICES
 
 
   section#recentreviews
@@ -102,7 +78,7 @@ block content
         h2 Our Recent Reviews
         .row
           .col-sm-12.col-lg-6
-            .rc-item.boxshadow
+            .rc-item
               .rc-top
                 p.name John Doe
                 img(src="assets/images/ratings5.png", alt="5 Star Review", title="5 Star Review")
@@ -111,7 +87,7 @@ block content
                 p.description Psellus metus massa, auctor ut condimentum dictum, tincidunt nec arcu. Nam pharetra urna ac metus pellentesque porta. Praesent placerat tortor nec lacinia venenatis.“
             //- rc-item
           .col-sm-12.col-lg-6
-            .rc-item.boxshadow
+            .rc-item
               .rc-top
                 p.name Jane Smith
                 img(src="assets/images/ratings5.png", alt="5 Star Review", title="5 Star Review")
@@ -121,7 +97,7 @@ block content
             //- rc-item
         .row
           .col-sm-12.col-lg-6
-            .rc-item.boxshadow
+            .rc-item
               .rc-top
                 p.name Samuel L 
                 img(src="assets/images/ratings5.png", alt="5 Star Review", title="5 Star Review")
@@ -130,7 +106,7 @@ block content
                 p.description Gravida lorem nisi ac massa. Nunc dui odio, consequat ac odio at, facilisis pulvinar urna. Cras purus turpis, tincidunt vehicula libero commodo, ornare ullamcorper metus. 
             //- rc-item
           .col-sm-12.col-lg-6
-            .rc-item.boxshadow
+            .rc-item
               .rc-top
                 p.name Peter Peterson
                 img(src="assets/images/ratings5.png", alt="5 Star Review", title="5 Star Review")
@@ -139,41 +115,25 @@ block content
                 p.description Curabitur lobortis magna nulla, at tristique urna convallis ut. Vivamus iaculis metus non arcu viverra bibendum. Vestibulum efficitur, ex a vestibulum congue, eros nisi blandit dui,
             //- rc-item
 
-        button.btn.btn-success(type='button') VIEW ALL REVIEWS
+        button.btn.btn-success(type='button')
+          i.fas.fa-angle-right
+          | VIEW ALL REVIEWS
 
 
-  section#section-contactus.boxshadow
-    .container
-      .row.justify-content-between
-        .col-sm-12.col-lg-4
-          .cu-container.contact.boxshadow
-            h2 CONTACT US
-            strong PHONE
-            p 0413 666 888
-            strong ADDRESS
-            p 987 The Entrance Road 
+  section#ourserviceareas
+      .center-content.container
+        .row
+          .col 
+            h2 Our Service Areas
+            h3 Postcode: 2250
+            p Avoca Beach, Bensville, Bouddi, Copacabana, Davistown, Green Point, Kincumber, Kincumber South, Macmasters Beach, Picketts Valley, Saratoga, Yattalunga, Erina Heights, 
               br
-              | Erina, NSW 2250
-            strong ABN
-            p 37 125 870 260
-
-        .col-sm-12.col-lg-7.offset-lg-1
-          .cu-container.boxshadow
-            h2 OUR SERVICE AREAS
-            p Avoca Beach, Bensville, Bouddi, Copacabana, Davistown, Green Point, Kincumber, 
-              br
-              | Kincumber South, Macmasters Beach, Picketts Valley, Saratoga, Yattalunga, 
-              br
-              | Erina Heights, Forresters Beach, North Avoca, Terrigal, Wamberal, Bucketty, 
-              br
-              | Calga, Central Mangrove, East Gosford, Erina, Erina Fair, Glenworth Valley, 
-              br
-              | Gosford, Greengrove, Holgate ...
-            button.btn.btn-success(type='button') 
+              | Forresters Beach, North Avoca, Terrigal, Wamberal, Bucketty, Calga, Central Mangrove, East Gosford, Erina, Erina Fair, Glenworth Valley, Gosford, Greengrove, Holgate ...
+        .row  
+          .col.text-center
+            button.btn.btn-success(type='button')
               i.fas.fa-plus
-              | VIEW ALL SERVICE AREAS
-      
-
+              | EXPAND SERVICE AREAS
 
 
 

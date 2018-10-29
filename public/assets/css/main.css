@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
 }
 
 nav .nav-link {
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 900;
     color: #727272;
@@ -42,7 +42,7 @@ nav .nav-link {
 }
 
 #section-booking .center-content h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 6rem;
     margin-bottom: 1rem;
@@ -68,122 +68,63 @@ nav .nav-link {
     }
 }
 
-/*===== Introduction Section =====*/
-#section-introduction {
-    background-image: url("../images/background2.png");
-    background-size: cover;
-    background-position: center;
+/*===== Fix4Me Verified Section =====*/
+#fix4meverified {
+    background-color: #c4c4c4;
     display: flex;
 }
 
-#section-introduction .center-content {
+#fix4meverified .center-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: #FFF;
-    margin: 9rem auto;
-    padding: 4rem 5rem;
-}
-
-@media (max-width: 767px) {
-    #section-introduction .center-content {
-        margin: 9rem 2rem;
-        padding: 4rem 2rem;
-    }
-}
-
-#section-introduction .center-content h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 3.6rem;
-    margin-bottom: 3rem;
-    color: #3362b1;
-}
-
-#section-introduction .center-content p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.5;
-    color: #2f3b4c;
-}
-
-/*===== Services Section =====*/
-#section-services .center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 7rem 7rem 10rem 7rem;
-    background-color: #5c6d8c;
-}
-
-#section-services .center-content .service {
-    border: 3px solid #FFF;
-    padding: 1rem;
-    width: 140px;
-    height: 140px;
-    margin: 5rem auto 2rem auto;
-    border-radius: 50%;
-}
-
-@media (min-width: 1200px) {
-    #section-services .center-content .service {
-        margin: 5rem 5rem 2rem 5rem;
-    }
-}
-
-#section-services .center-content .service.abn {
-    background: url("/assets/images/ABN.png") no-repeat center center;
-}
-
-#section-services .center-content .service.licensed {
-    background: url("/assets/images/LicensedandInsured.png") no-repeat center center;
-}
-
-#section-services .center-content .service.fix4 {
-    background: url("/assets/images/Fix4meVerified.png") no-repeat center center;
-}
-
-#section-services .center-content .service.emergency {
-    background: url("/assets/images/EmergencyWork.png") no-repeat center 40%;
-}
-
-#section-services .center-content p {
-    color: #FFF;
-    font-size: 2.25rem;
-    font-weight: 300;
-    letter-spacing: 1.5px;
-}
-
-/*===== Fix4Me Section =====*/
-#fix4me .center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 7rem;
-    background-color: #f0614f;
-}
-
-#fix4me .center-content h2 {
-    color: #FFF;
-    font-family: "Roboto", sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-}
-
-#fix4me .center-content button {
     color: #f0614f;
-    background-color: #FFF;
-    border-color: #FFF;
+    margin: 5rem 2rem;
+    padding: 4rem 5rem;
     font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 768px) {
+    #fix4meverified .center-content {
+        margin: 9rem auto;
+    }
+}
+
+#fix4meverified .center-content img {
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+    #fix4meverified .center-content img {
+        margin-bottom: 0;
+    }
+}
+
+#fix4meverified .center-content h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+#fix4meverified .center-content p {
+    font-size: 1.8rem;
+}
+
+#fix4meverified .center-content .btn-success {
     font-size: 2rem;
+    background-color: #f0614f;
+    border: 1px solid #FFF;
     padding: 1rem 5rem;
+    margin-bottom: 4rem;
     border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+    #fix4meverified .center-content .btn-success {
+        margin-bottom: 0;
+    }
 }
 
 /*===== Our Job Photos Section =====*/
@@ -192,7 +133,7 @@ nav .nav-link {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 9rem;
+    padding: 7rem;
 }
 
 @media (max-width: 767px) {
@@ -202,15 +143,16 @@ nav .nav-link {
 }
 
 #jobphotos .center-content h2 {
-    color: #3362b1;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3.6rem;
-    font-weight: bold;
+    color: #02afce;
+    font-family: "Lato", sans-serif;
+    font-size: 3.5rem;
     margin-bottom: 5rem;
 }
 
 #jobphotos .center-content .row {
     overflow: hidden;
+    position: relative;
+    opacity: 0.75;
 }
 
 @media (max-width: 767px) {
@@ -234,13 +176,25 @@ nav .nav-link {
 }
 
 #jobphotos .center-content .btn-success {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
-    background-color: #3cc03c;
-    border-color: #3cc03c;
-    padding: 0.75rem 2.5rem;
-    margin-top: 5rem;
-    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.25rem;
+    background-color: #ff7800;
+    border: 1px solid #FFF;
+    padding: 1rem 2.5rem;
+    margin: 4rem auto 0 auto;
+    border-radius: 0;
+}
+
+@media (min-width: 768px) {
+    #jobphotos .center-content .btn-success {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        margin: 0;
+        box-shadow: 0px 0px 5px 2px rgba(125, 119, 125, 0.6);
+    }
 }
 
 /*===== Trade Services Section =====*/
@@ -250,20 +204,19 @@ nav .nav-link {
     align-items: center;
     text-align: center;
     padding: 7rem 7rem 10rem 7rem;
-    background-color: #5c6d8c;
+    background-color: #02afce;
 }
 
 #tradeservices .center-content h2 {
     color: #FFF;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3.6rem;
-    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    font-size: 3.5rem;
     margin-bottom: 5rem;
 }
 
 #tradeservices .center-content .trade-item {
     background-color: #ebebeb;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 1px;
@@ -301,13 +254,21 @@ nav .nav-link {
 }
 
 #tradeservices .center-content .btn-success {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
-    background-color: #3cc03c;
-    border-color: #3cc03c;
-    padding: 0.75rem 2.5rem;
+    font-weight: bold;
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #02afce;
+    padding: 0.75rem 2.5rem 0.75rem 2rem;
     margin-top: 5rem;
-    border-radius: 8px;
+    border-radius: 0;
+}
+
+#tradeservices .center-content .btn-success .fas {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    vertical-align: middle;
 }
 
 /*===== Our Recent Reviews Section =====*/
@@ -317,6 +278,7 @@ nav .nav-link {
     align-items: center;
     text-align: center;
     padding: 9rem;
+    font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -326,28 +288,26 @@ nav .nav-link {
 }
 
 #recentreviews .center-content h2 {
-    color: #3362b1;
-    font-family: "Open Sans", sans-serif;
-    font-size: 3.6rem;
-    font-weight: bold;
+    color: #02afce;
+    font-size: 3.5rem;
     margin-bottom: 5rem;
 }
 
 #recentreviews .center-content .rc-item {
     margin: 2rem;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 #recentreviews .center-content .rc-item .rc-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 #recentreviews .center-content .rc-item .rc-top p {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0;
     color: #545c67;
 }
@@ -368,78 +328,77 @@ nav .nav-link {
 }
 
 #recentreviews .center-content .btn-success {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
-    background-color: #3cc03c;
-    border-color: #3cc03c;
-    padding: 0.75rem 2.5rem;
+    font-weight: bold;
+    background-color: #ff934b;
+    border-color: #ff934b;
+    color: #FFF;
+    padding: 0.75rem 2.5rem 0.75rem 2rem;
     margin-top: 5rem;
-    border-radius: 8px;
+    border-radius: 0;
 }
 
-/*===== Contact Us Section =====*/
-#section-contactus {
-    background-image: url("../images/background2.png");
-    background-size: cover;
-    background-position: center;
+#recentreviews .center-content .btn-success .fas {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    vertical-align: middle;
+}
+
+/*===== Our Service Areas Section =====*/
+#ourserviceareas {
+    background-color: #02afce;
+}
+
+#ourserviceareas .center-content {
     display: flex;
-}
-
-#section-contactus .cu-container {
-    text-align: center;
-    background-color: #FFF;
-    margin: 9rem auto;
-    padding: 4rem 7rem;
-}
-
-#section-contactus .cu-container.contact {
-    margin: 9rem auto 0 auto;
-}
-
-#section-contactus .cu-container.contact p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    flex-direction: column;
+    text-align: left;
+    padding: 3rem 7rem 5rem 11rem;
+    font-family: "Lato", sans-serif;
+    color: #FFF;
 }
 
 @media (max-width: 767px) {
-    #section-contactus .cu-container {
-        margin: 4rem auto;
-        padding: 4rem 2rem;
+    #ourserviceareas .center-content {
+        padding: 5rem 2rem;
     }
 }
 
-#section-contactus .cu-container h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    color: #3362b1;
+#ourserviceareas .center-content h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
 }
 
-#section-contactus .cu-container strong {
+#ourserviceareas .center-content h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 1.25rem;
+}
+
+#ourserviceareas .center-content p {
+    font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
-    color: #545c67;
+    font-weight: 100;
 }
 
-#section-contactus .cu-container p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.5;
-    color: #2f3b4c;
-}
-
-#section-contactus .cu-container .btn-success {
-    font-family: "Open Sans", sans-serif;
+#ourserviceareas .center-content .btn-success {
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
-    background-color: #3cc03c;
-    border-color: #3cc03c;
-    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
-    margin-top: 5rem;
-    border-radius: 8px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 0.75rem 2.5rem 0.75rem 2rem;
+    margin-top: 3rem;
+    border-radius: 0;
 }
 
-#section-contactus .cu-container .btn-success .fas {
+#ourserviceareas .center-content .btn-success .fas {
     font-size: 2rem;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     vertical-align: middle;
 }
